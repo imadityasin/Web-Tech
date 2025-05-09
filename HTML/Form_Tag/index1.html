@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM TAG IN NEXT CLASS</title>
+</head>
+<body>
+    <h1><B>SIGN-UP FORM</B></h1>
+    <form action="">
+        <div class="from-grp">
+            <label for="">Username : </label>
+            <input type="text" name="" id="" placeholder="Enter Username" required>
+        </div>
+
+        <div class="from-grp">
+            <label for="">User ID : </label>
+            <input type="text" name="" id="" value="2201560016" readonly>
+        </div>
+
+        <div class="from-grp">
+            <label for="">Password : </label>
+            <input type="password" name="" id="" placeholder="Enter Password" required pattern="[/A-Z0-9]{8} ">
+        </div>
+
+        <div class="from-grp">
+            <label for="">Product Quantity : </label>
+            <input type="number" name="" id="" required step="4" placeholder="Please Enter Quantity">
+        </div>
+
+        <!-- RADIO BUTTON -->
+        <div class="from-grp">
+            <label for="">Gender : </label>
+            <input type="radio" name="Gender" id="">
+
+            <label for="">Male</label>
+            <input type="radio" name="Gender" id="">
+
+            <label for="">Female</label>
+            <input type="radio" name="Gender" id="">
+
+            <label for="">Other's</label>
+
+        </div>
+
+        <div class="from-grp">
+            <label for="">Telephone</label>
+            <input type="tel" name="" id="" maxlength="10" minlength="12">
+        </div>
+
+        <div class="from-grp">
+            <label for="">Age : </label>
+            <input type="number" name="" id="" max="3" min="1">
+        </div>
+
+        <!-- DROPDOWN LIST -->
+        <div class="from-grp">
+            <label for="">States</label>
+            <select name="" id="" >
+                <option value="" selected hidden></option>
+                <option value="">New Delhi</option>
+                <option value="" selected>Kanpur</option>
+                <option value="">Noida</option>
+            </select>
+        </div>
+
+        <div class="from-grp">
+            <label for="">Country</label>
+            <select name="" id="" disabled>
+                <option value="">India</option>
+                <option value="">China</option>
+            </select>
+        </div>
+
+
+        <div class="form-grp">
+            <input type="submit" value="SUBMIT">
+            <input type="reset" value="RESET">
+        </div>
+    </form>
+</body>
+</html>
